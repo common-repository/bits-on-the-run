@@ -1,0 +1,138 @@
+.botr-error {
+  color: red;
+}
+
+#botr-video-box .inside {
+  background: url('logo.png') 8px 6px no-repeat;
+}
+
+#botr-video-box .inside {
+  margin: 0;
+}
+
+#botr-search-box {
+  width: 99%;
+  margin-bottom: 5px;
+  color: lightgray;
+  background: url('search.png') no-repeat right center;
+  padding-right: 20px;
+  margin: 4px;
+}
+
+#botr-search-box:focus {
+  color: black;
+}
+
+#botr-video-list p {
+  margin-left: 5px;
+}
+
+#botr-video-list li {
+  background-position: left top;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: block;
+  height: 25px;
+  margin-bottom: -1px;
+  padding: 1px 0 4px 55px;
+  position: relative;
+}
+
+#botr-video-list li.botr-failed {
+  cursor: default;
+}
+
+#botr-video-list li.botr-odd {
+  background-color: #fff;
+}
+
+#botr-video-list li.botr-even {
+  background-color: #e9f2f8;
+}
+
+#botr-video-list li p {
+  display: block;
+  height: 18px;
+  margin-left: 0;
+  margin-top: 4px;
+  overflow: hidden;
+  padding-right: 7px;
+}
+
+#botr-video-list button {
+  float: right;
+  margin: 2px;
+}
+
+#botr-player-select {
+  width: 100%;
+}
+
+#botr-upload-button {
+  margin: 11px;
+}
+
+.botr-busy * {
+  cursor: wait;
+}
+
+.botr-dashboard-link {
+  display: block;
+  line-height: 34px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.botr-upload-window {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 400px;
+  margin-left: -200px;
+  margin-top: -100px;
+  background: #eaeaea;
+  -webkit-box-shadow: 3px 3px 2px 0px #999;
+  box-shadow: 3px 3px 2px 0px #999;
+}
+
+.botr-upload-window .inside {
+  padding: 0 8px;
+}
+
+.botr-upload-window .botr-message {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  min-height: 1.4em;
+}
+
+.botr-upload-window label {
+  display: inline-block;
+  width: 100px;
+}
+
+.botr-upload-window>h3 {
+  padding: 7px 10px;
+}
+
+.botr-upload-submit, .botr-pause {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.botr-upload-window:hover>.handlediv {
+  background: url('close.png') no-repeat 6px 7px transparent !important;
+}
+
+.botr-progress-bar {
+  width: 200px;
+  height: 10px;
+  background: #fff;
+  display: none;
+}
+
+.botr-progress-bar > .botr-progress {
+  width: 0;
+  height: 10px;
+  background: #0074BD;
+}
